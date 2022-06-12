@@ -16,6 +16,7 @@ header .portada .imagen-portada{
 }
 header .fecha{
 	margin-left: 1rem;
+	font-size: 0.9rem;
 }
 header .portada .main-tittle{
 	margin-left: 2rem;
