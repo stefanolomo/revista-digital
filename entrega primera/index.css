@@ -1,6 +1,6 @@
 *{
 	font-family: Arial, Helvetica, sans-serif;
-	background-color: #f8dbbb;
+	background-color: #f7ede2;
 }
 header .image-container{
 	width: 96%;
@@ -15,7 +15,6 @@ header .portada .imagen-portada{
 	border: 2px solid black;
 }
 header .fecha{
-	margin-left: 1rem;
 	font-size: 0.9rem;
 }
 header .portada .main-tittle{
