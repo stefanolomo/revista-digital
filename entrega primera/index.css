@@ -2,17 +2,22 @@
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: #f7ede2;
 }
-header .image-container{
+header .seccion{
+	margin: 0;
+	margin-top: 0.5rem;
+	padding-left: 0.5rem;
+}
+header .container{
 	width: 96%;
 	max-width: 960px;
 	margin: 0 auto;
 }
-header .portada .imagen-portada{
+header .container .imagen-portada{
 	width: 100%;
 	height: auto;
-	margin-top: 1rem;
+	margin-top: 0.5rem;
 	border-radius: 10px;
-	border: 2px solid black;
+	border: 1px solid black;
 }
 header .fecha{
 	font-size: 0.9rem;
