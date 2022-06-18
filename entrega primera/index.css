@@ -1,10 +1,21 @@
 *{
 	font-family: Arial, Helvetica, sans-serif;
-	background-color: #f7ede2;
+	background-color: #ffffff;
+}
+.green{
+	color: green;
+}
+.blue{
+	color: blue;
+}
+.red{
+	color: red;
+}
+.yellow{
+	color: yellow;
 }
 header .portada{
-	display: flexbox;
-	align-items: center;
+	display: inline;
 }
 header .portada .main-tittle{
 	margin-left: 1rem;
@@ -16,6 +27,7 @@ main .texto .container{
 }
 main .texto .container .subtitulo{
 	margin-left: 1.5rem;
+	color: #333;
 }
 main .texto .main-text{
 	display: flexbox;
