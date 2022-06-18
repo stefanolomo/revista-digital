@@ -2,34 +2,27 @@
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: #f7ede2;
 }
-header .seccion{
-	margin: 0;
-	margin-top: 0.5rem;
-	padding-left: 0.5rem;
-}
-header .container{
-	width: 96%;
-	max-width: 960px;
-	margin: 0 auto;
-}
-header .container .imagen-portada{
-	width: 100%;
-	height: auto;
-	margin-top: 0.5rem;
-	border-radius: 10px;
-	border: 1px solid black;
-}
-header .fecha{
-	font-size: 0.9rem;
+header .portada{
+	display: flexbox;
+	align-items: center;
 }
 header .portada .main-tittle{
-	margin-left: 2rem;
+	margin-left: 1rem;
 	color: #333;
 }
-main .texto .subtitulo{
-	margin-left: 2.5rem;
-	color: #333;
+main .texto .container{
+	display: flexbox;
+	align-items: center;
+}
+main .texto .container .subtitulo{
+	margin-left: 1.5rem;
 }
 main .texto .main-text{
-	margin-left: 2.5rem;
+	display: flexbox;
+	align-items: center;
+}
+main .texto .main-text p{
+	margin-right: 2rem;
+	margin-left: 2rem;
+	text-align: justify;
 }
