@@ -2,21 +2,13 @@
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: #e8eaed;
 }
-.green{
-	color: green;
-}
-.blue{
-	color: blue;
-}
-.red{
-	color: red;
-}
-.yellow{
-	color: yellow;
-}
 header .portada{
-	display: inline;
+	width: auto;
+}
+header .portada img{
 	border-radius: 5px;
+	width: 100%;
+	height: auto;
 }
 header .portada .main-tittle{
 	margin-left: 1rem;
