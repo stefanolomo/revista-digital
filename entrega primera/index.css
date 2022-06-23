@@ -1,6 +1,6 @@
 *{
 	font-family: Arial, Helvetica, sans-serif;
-	background-color: #ffffff;
+	background-color: #e8eaed;
 }
 .green{
 	color: green;
@@ -16,6 +16,7 @@
 }
 header .portada{
 	display: inline;
+	border-radius: 5px;
 }
 header .portada .main-tittle{
 	margin-left: 1rem;
