@@ -12,6 +12,7 @@
   }
   
   .dropdown-content {
+	border-radius: 1rem;
 	display: none;
 	position: absolute;
 	min-width: 160px;
