@@ -50,6 +50,7 @@ main .publicaciones .publicacion{
 }
 main .publicaciones .publicacion .titulo-post{
 	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
 	background-color: #f5f5f5;
 }
 main .publicaciones .publicacion .pre-portada{
@@ -57,6 +58,10 @@ main .publicaciones .publicacion .pre-portada{
 	border-bottom-right-radius: 1rem;
 	border-top-left-radius: 1rem;
 	border: green 2px dotted;
+}
+main .publicaciones .publicacion .pg{
+	font-size: 0.8rem;
+	color: grey;
 }
 a{
 	color: black;
