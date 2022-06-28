@@ -1,0 +1,55 @@
+*{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #e8eaed;
+}
+.actualidad-border{
+	border: green 2px dotted;
+}
+.moda-border{
+	border: red 2px dotted;
+}
+.noticias-border{
+	border: blue 2px dotted;
+}
+.deportes-border{
+	border: orange 2px dotted;
+}
+main .publicaciones .publicacion p{
+	text-align: left;
+	background-color: #f5f5f5;
+}
+main .publicaciones .publicacion{
+	border-radius: 0.4rem;
+	border: 1.9px solid black;
+    padding: 2rem;
+	margin-top: 2.5rem;
+	margin-bottom: 2.5rem;
+	margin-left: 1.5rem;
+	margin-right: 1.5rem;
+	box-shadow: 5px 5px 11px 1px rgba(0,0,0,0.51);
+	background-color: #f5f5f5;
+}
+main .publicaciones .publicacion .titulo-post{
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+	background-color: #f5f5f5;
+}
+main .publicaciones .publicacion .pre-portada{
+	width: 100%;
+	border-bottom-right-radius: 1rem;
+	border-top-left-radius: 1rem;
+	justify-content: center;
+}
+main .publicaciones .publicacion .sec{
+	font-size: 0.8rem;
+	color: grey;
+}
+main .publicaciones .publicacion .container-sec{
+	display:block;
+	background-color: #f5f5f5;
+}
+a{
+	color: black;
+	text-decoration: underline;
+	cursor: pointer;
+}

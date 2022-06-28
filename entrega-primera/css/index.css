@@ -2,37 +2,6 @@
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: #e8eaed;
 }
-header .menu .revista .titulo-revista{
-	background-color: #aad4d8;
-	padding: 0.5rem;
-}
-header .menu .buttons a:visited{
-	color: black;
-	text-decoration: none;
-}
-header .menu .buttons a:link{
-	color: black;
-	text-decoration: none;
-}
-header .menu .buttons a{
-	color: black;
-	text-decoration: none;
-}
-header .menu{
-	text-align: center;
-	background-color: #aad4d8;
-	padding: 0.5rem;
-}
-header .menu .buttons{
-	background-color: #aad4d8;
-	text-align: center;
-}
-header .menu .btn{
-	padding: 0.5rem;
-}
-header{
-	margin-bottom: 1rem;
-}
 .actualidad-border{
 	border: green 2px dotted;
 }
@@ -72,7 +41,6 @@ main .publicaciones .publicacion .pre-portada{
 	width: 100%;
 	border-bottom-right-radius: 1rem;
 	border-top-left-radius: 1rem;
-	justify-content: center;
 }
 main .publicaciones .publicacion .sec{
 	font-size: 0.8rem;
