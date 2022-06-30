@@ -4,7 +4,7 @@
 }
 .portada{
 	width: auto;
-	margin: 0.5rem;
+	padding: 0.5rem;
 	display: flexbox;
 	justify-content: center;
 }
