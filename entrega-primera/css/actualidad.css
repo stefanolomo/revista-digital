@@ -3,29 +3,22 @@
 	background-color: #e8eaed;
 }
 .portada{
-	width: auto;
 	padding: 0.5rem;
-	display: flexbox;
-	justify-content: center;
+	width: 100%;
 }
 header .portada img{
-	border-radius: 5px;
+	border-radius: 1rem;
 	width: 100%;
-	height: auto;
 }
 header .portada .main-tittle{
 	margin-left: 1rem;
 	margin-top: 1rem;
-	margin-bottom: 1rem;
+	margin-bottom: 0rem;
 	color: #333;
 }
-main .texto .container{
-	display: flexbox;
-	align-items: center;
-}
-main .texto .container .subtitulo{
+main .texto .subtitulo{
 	margin-left: 1.5rem;
-	margin-top: 1rem;
+	margin-top: 0.5rem;
 	margin-bottom: 1rem;
 	color: #333;
 }
@@ -39,4 +32,16 @@ main .texto .main-text p{
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 	text-align: justify;
+}
+.actualidad-border{
+	border: green 2px dotted;
+}
+.moda-border{
+	border: red 2px dotted;
+}
+.noticias-border{
+	border: blue 2px dotted;
+}
+.deportes-border{
+	border: orange 2px dotted;
 }
