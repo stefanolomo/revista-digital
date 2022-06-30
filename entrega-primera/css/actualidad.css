@@ -30,7 +30,14 @@ main .texto .main-text p{
 	margin-right: 2rem;
 	margin-left: 2rem;
 	margin-top: 1rem;
-	margin-bottom: 1rem;
+	margin-bottom: 1.5rem;
+	text-align: justify;
+}
+main .texto .main-text h4{
+	margin-right: 2rem;
+	margin-left: 2rem;
+	margin-top: 2.5rem;
+	margin-bottom: 1.5rem;
 	text-align: justify;
 }
 .actualidad-border{
