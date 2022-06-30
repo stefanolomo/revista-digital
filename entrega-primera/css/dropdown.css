@@ -55,7 +55,10 @@ header .menu .buttons a{
 header .menu{
 	text-align: center;
 	background-color: #aad4d8;
-	padding: 0.5rem;
+	padding-top: 0.5rem;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+	padding-bottom: 1rem;
 }
 header .menu .buttons{
 	background-color: #aad4d8;

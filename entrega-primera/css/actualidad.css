@@ -3,14 +3,14 @@
 	background-color: #e8eaed;
 }
 .portada{
-	padding: 0.5rem;
+	padding: 1rem;
 	width: 100%;
 }
 header .portada img{
 	border-radius: 1rem;
 	width: 100%;
 }
-header .portada .main-tittle{
+header .main-tittle{
 	margin-left: 1rem;
 	margin-top: 1rem;
 	margin-bottom: 0rem;
