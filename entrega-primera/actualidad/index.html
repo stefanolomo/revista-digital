@@ -7,23 +7,48 @@
 	<title>Revista Digital</title>
 	<link rel="stylesheet" href="../css/normalize.min.css">
 	<link rel="stylesheet" href="../css/actualidad.css">
+	<link rel="stylesheet" href="../css/dropdown.css">
 </head>
 <body>
 	<header>
+		<section class="menu">
+            <div class="revista">
+                <h3 class="titulo-revista">Revista digital de los alumnos del Colegio San Jose de La Plata</h4>
+            </div>
+            <div class="buttons">
+                <a href="#" class="btn">Inicio</a>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Secciones</button>
+                    <div id="myDropdown" class="dropdown-content">
+						<a href="../noticias/">Noticias</a>
+                        <a href="#">Actualidad</a>
+                        <a href="#">Moda</a>
+                        <a href="#">Interaccion</a>
+                        <a href="#">Deportes</a>
+                        <a href="#">Gastronomia</a>
+                        <a href="#">Cocina</a>
+                        <a href="#">Entretenimiento</a>
+                    </div>
+                </div>
+                <a href="./redaccion/" class="btn">Redacción</a>
+            </div>
+        </section>
 		<section class="portada">
-			<img sizes="(max-width: 1024px) 100vw, 1024px" srcset="
-				../img/portada/download-1024x853_spzhog_c_scale_w_1024_yfsn8t_c_scale,w_200.jpg 200w,
-				../img/portada/download-1024x853_spzhog_c_scale_w_1024_yfsn8t_c_scale,w_341.jpg 341w,
-				../img/portada/download-1024x853_spzhog_c_scale_w_1024_yfsn8t_c_scale,w_443.jpg 443w,
-				../img/portada/download-1024x853_spzhog_c_scale_w_1024_yfsn8t_c_scale,w_566.jpg 566w,
-				../img/portada/download-1024x853_spzhog_c_scale_w_1024_yfsn8t_c_scale,w_687.jpg 687w,
-				../img/portada/download-1024x853_spzhog_c_scale_w_1024_yfsn8t_c_scale,w_770.jpg 770w,
-				../img/portada/download-1024x853_spzhog_c_scale_w_1024_yfsn8t_c_scale,w_850.jpg 850w,
-				../img/portada/download-1024x853_spzhog_c_scale_w_1024_yfsn8t_c_scale,w_931.jpg 931w,
-				../img/portada/download-1024x853_spzhog_c_scale_w_1024_yfsn8t_c_scale,w_1009.jpg 1009w,
-				../img/portada/download-1024x853_spzhog_c_scale_w_1024_yfsn8t_c_scale,w_1024.jpg 1024w" 
-				src="./img/portada/download-1024x853_spzhog_c_scale_w_1024_yfsn8t_c_scale,w_1024.jpg" 
-				alt="">
+				<img
+                sizes="(max-width: 920px) 100vw, 920px"
+                srcset="
+                ../img/pre-portada_dztlkw/pre-portada_dztlkw_c_scale,w_200.webp 200w,
+                ../img/pre-portada_dztlkw/pre-portada_dztlkw_c_scale,w_357.webp 357w,
+                ../img/pre-portada_dztlkw/pre-portada_dztlkw_c_scale,w_479.webp 479w,
+                ../img/pre-portada_dztlkw/pre-portada_dztlkw_c_scale,w_581.webp 581w,
+                ../img/pre-portada_dztlkw/pre-portada_dztlkw_c_scale,w_645.webp 645w,
+                ../img/pre-portada_dztlkw/pre-portada_dztlkw_c_scale,w_707.webp 707w,
+                ../img/pre-portada_dztlkw/pre-portada_dztlkw_c_scale,w_779.webp 779w,
+                ../img/pre-portada_dztlkw/pre-portada_dztlkw_c_scale,w_855.webp 855w,
+                ../img/pre-portada_dztlkw/pre-portada_dztlkw_c_scale,w_919.webp 919w,
+                ../img/pre-portada_dztlkw/pre-portada_dztlkw_c_scale,w_920.webp 920w"
+                src="../img/pre-portada_dztlkw/pre-portada_dztlkw_c_scale,w_920.webp"
+                alt="Soldado ucraniano custodiando un campo de trigo. En la region de Donetsk, 10 de Junio" class="portada">
 			<h2 class="main-tittle"><b>Una crisis y una oportunidad</b></h2>
 		</section>
 	</header>
@@ -31,7 +56,7 @@
 		<section class="texto">
 			<div class="container">
 				<p class="subtitulo"><b>
-					Este sería el subtitulo de la noticia. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+					
 				</b></p>
 			</div>
 			<section class="main-text">
@@ -57,7 +82,8 @@
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas reprehenderit est sequi accusamus accusantium, at quis possimus voluptate iure corrupti voluptatum totam sed repudiandae aliquam repellat, eligendi, quia amet eum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio id voluptas sunt! Delectus nulla, quod, unde obcaecati ipsum dolorum possimus minus perspiciatis nobis nemo accusantium error corrupti laudantium veritatis magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum vitae nemo veniam eaque explicabo distinctio dolore ratione dolorem, molestias sint ut voluptates quae dolorum. Dolorum porro aspernatur voluptate ducimus corrupti.
 				</p>
 			</section>
-		</section>
+		</section>	
 	</main>
+	<script src="../js/dropdown.js"></script>
 </body>
 </html>

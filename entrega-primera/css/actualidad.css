@@ -2,7 +2,7 @@
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: #e8eaed;
 }
-header .portada{
+.portada{
 	width: auto;
 	margin: 0.5rem;
 	display: flexbox;

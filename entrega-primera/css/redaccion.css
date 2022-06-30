@@ -30,3 +30,9 @@ header .menu .buttons{
 header .menu .btn{
 	padding: 0.5rem;
 }
+main .titulo{
+	margin: 1rem;
+}
+main .seccion{
+	margin: 2rem;
+}
