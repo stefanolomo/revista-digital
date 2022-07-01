@@ -1,1 +1,79 @@
-placeholder
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revista Digital</title>
+    <link rel="stylesheet" media="(max-width: 480px)" href="../css/index.css">
+    <link rel="stylesheet" media="(min-width: 480px)" href="../css/index.desktop.css">
+    <link rel="stylesheet" href="../css/normalize.min.css">
+    <link rel="stylesheet" href="../css/dropdown.css">
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <section class="menu">
+            <div class="revista">
+                <h3 class="titulo-revista">Revista digital de los alumnos del Colegio San Jose de La Plata</h4>
+            </div>
+            <div class="buttons">
+                <a href="../" class="btn">Inicio</a>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">Secciones</button>
+                    <div id="myDropdown" class="dropdown-content">
+			<a href="../noticias/">Noticias</a>
+                        <a href="../actualidad/">Actualidad</a>
+                        <a href="../moda">Moda</a>
+                        <a href="..interaccion">Interacción</a>
+                        <a href="../deportes">Deportes</a>
+                        <a href="../cocina">Cocina</a>
+                        <a href="../entretenimiento">Entretenimiento</a>
+                    </div>
+                </div>
+                <a href="../redaccion" class="btn">Redacción</a>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="publicaciones">
+            <article class="publicacion">
+                <img
+				sizes="(max-width: 1400px) 100vw, 1400px"
+				srcset="
+				../img/noticias/OVPCYADNF4SWLOSEBS7NGJBU3I_r7cc8e/OVPCYADNF4SWLOSEBS7NGJBU3I_r7cc8e_c_scale,w_200.jpg 200w,
+				../img/noticias/OVPCYADNF4SWLOSEBS7NGJBU3I_r7cc8e/OVPCYADNF4SWLOSEBS7NGJBU3I_r7cc8e_c_scale,w_759.jpg 759w,
+				../img/noticias/OVPCYADNF4SWLOSEBS7NGJBU3I_r7cc8e/OVPCYADNF4SWLOSEBS7NGJBU3I_r7cc8e_c_scale,w_1153.jpg 1153w,
+				../img/noticias/OVPCYADNF4SWLOSEBS7NGJBU3I_r7cc8e/OVPCYADNF4SWLOSEBS7NGJBU3I_r7cc8e_c_scale,w_1400.jpg 1400w"
+				src="../img/noticias/OVPCYADNF4SWLOSEBS7NGJBU3I_r7cc8e/OVPCYADNF4SWLOSEBS7NGJBU3I_r7cc8e_c_scale,w_1400.jpg"
+				alt="Escasez de leche en polvo" class="pre-portada noticias-border">
+                <div class="container-sec">
+                    <p class="sec">Actualidad: Noticias</p>
+                </div>
+                <h4 class="titulo-post"><a href="../noticias/escazez-de-leche-en-eeuu.html">Escazez de leche en polvo en EEUU.</a></h4>
+                <p>
+                    Una sorpresiva, pero grave, escasez de un impensado producto en los Estados Unidos. Descubre la razón detrás de esta situación que mantiene a miles de estadounidenses en espera de una solución.
+                </p>
+            </article>
+            <article class="publicacion">
+                <img
+				sizes="(max-width: 1400px) 100vw, 1400px"
+				srcset="
+				../img/noticias/OVPCYADNF4SWLOSEBS7NGJBU3I_r7cc8e/OVPCYADNF4SWLOSEBS7NGJBU3I_r7cc8e_c_scale,w_200.jpg 200w,
+				../img/noticias/OVPCYADNF4SWLOSEBS7NGJBU3I_r7cc8e/OVPCYADNF4SWLOSEBS7NGJBU3I_r7cc8e_c_scale,w_759.jpg 759w,
+				../img/noticias/OVPCYADNF4SWLOSEBS7NGJBU3I_r7cc8e/OVPCYADNF4SWLOSEBS7NGJBU3I_r7cc8e_c_scale,w_1153.jpg 1153w,
+				../img/noticias/OVPCYADNF4SWLOSEBS7NGJBU3I_r7cc8e/OVPCYADNF4SWLOSEBS7NGJBU3I_r7cc8e_c_scale,w_1400.jpg 1400w"
+				src="../img/noticias/OVPCYADNF4SWLOSEBS7NGJBU3I_r7cc8e/OVPCYADNF4SWLOSEBS7NGJBU3I_r7cc8e_c_scale,w_1400.jpg"
+				alt="Escasez de leche en polvo" class="pre-portada noticias-border">
+                <div class="container-sec">
+                    <p class="sec">Actualidad: Noticias</p>
+                </div>
+                <h4 class="titulo-post"><a href="../noticias/escazez-de-leche-en-eeuu.html">Escazez de leche en polvo en EEUU.</a></h4>
+                <p>
+                    Una sorpresiva, pero grave, escasez de un impensado producto en los Estados Unidos. Descubre la razón detrás de esta situación que mantiene a miles de estadounidenses en espera de una solución.
+                </p>
+            </article>
+        </section>
+    </main>
+    <script src="../js/dropdown.js"></script>
+</body> </html>
