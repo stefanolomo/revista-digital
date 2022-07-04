@@ -4,38 +4,35 @@
 	border: none;
 	cursor: pointer;
 	background-color: #aad4d8;
-  }
-  .dropdown {
+}
+.dropdown {
 	position: relative;
 	display: inline-block;
 	background-color: #aad4d8;
-  }
+}
   
-  .dropdown-content {
-	border-radius: 1rem;
-	display: none;
-	position: absolute;
-	min-width: 160px;
-	overflow: auto;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
-  }
-  
-  .dropdown-content a {
+.dropdown-content {
+	border-radius: 1rem; /*? Redondeado de los bordes */
+	display: none; /*? Esto hace que no se muestre salvo cuando la clase .show este activada ( esto sucede desde el javascript en myFunction() ) */
+	position: absolute; /*? Esto hace que la posicion del div del contenido no agrande el margin/padding del header */
+	min-width: 10rem; /*? Es la mínima medida que tendrá el div de contenidos */
+	overflow: auto; /*? Esto es para que no aparezca la barrita de scroll y se pueda hacer directamente con el mouse */
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /*? Box Shadow... */
+	z-index: 1; /*? Esto es para que el div de contenidos no se coloque atras del contenido, con el valor 1 lo "traes un poco mas para aca" (? */
+}
+
+.dropdown-content a{
 	color: black;
 	padding: 0.5rem;
 	text-decoration: none;
 	display: block;
-  }
-  
-  .dropdown a:hover {
+}
+
+.dropdown a:hover {
 	background-color: #aad4d8;
 }
-  
-  .show {display: block;}
-.myDropdown{
-	background-color: #aad4d8;
-}
+.show {display: block;}
+
 header .menu .revista .titulo-revista{
 	background-color: #aad4d8;
 	padding: 0.5rem;
