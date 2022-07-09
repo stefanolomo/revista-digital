@@ -2,7 +2,7 @@
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: #e8eaed;
 }
-.portada{
+header .portada{
 	padding: 1rem;
 	width: 100%;
 }
@@ -12,7 +12,6 @@ header .portada img{
 }
 header .main-tittle{
 	margin-left: 1rem;
-	margin-top: 1rem;
 	margin-bottom: 0rem;
 	color: #333;
 }
