@@ -44,6 +44,8 @@ main .texto .main-text .a-t{
 }
 main .texto .main-text .a-c{
 	text-align: center;
+	margin-left: 2rem;
+    margin-right: 2rem;
 }
 main .texto .main-text .video{
 	padding-right: 2rem;
@@ -52,4 +54,17 @@ main .texto .main-text .video{
 main .texto .main-text .video video{
 	width: 100%;
 	border-radius: 0.5rem;
+}
+footer{
+	padding: 1.5rem;
+	background-color: #aad4d8;
+}
+footer p{
+	display: inline-block;
+	background-color: #aad4d8;
+}
+footer .autores{
+	text-decoration: underline;
+    text-decoration-color: rgb(0, 151, 8);
+	text-decoration-thickness: 2px;
 }
