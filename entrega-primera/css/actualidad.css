@@ -2,8 +2,11 @@
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: #e8eaed;
 }
+header{
+	margin-bottom: 0.5rem;
+}
 header .portada{
-	padding: 1rem;
+	padding: 1rem 1rem 0.5rem 1rem;
 	width: 100%;
 }
 header .portada img{
@@ -33,21 +36,20 @@ main .texto .main-text p{
 	text-align: justify;
 }
 main .texto .main-text h4{
-	margin-right: 2rem;
+	margin-top: 1.3rem;
+	margin-bottom: 1rem;
+}
+main .texto .main-text .a-t{
 	margin-left: 2rem;
-	margin-top: 1.5rem;
-	margin-bottom: 1.5rem;
-	text-align: justify;
 }
-.actualidad-border{
-	border: green 2px dotted;
+main .texto .main-text .a-c{
+	text-align: center;
 }
-.moda-border{
-	border: red 2px dotted;
+main .texto .main-text .video{
+	padding-right: 2rem;
+	padding-left: 2rem;
 }
-.noticias-border{
-	border: blue 2px dotted;
-}
-.deportes-border{
-	border: orange 2px dotted;
+main .texto .main-text .video video{
+	width: 100%;
+	border-radius: 0.5rem;
 }
