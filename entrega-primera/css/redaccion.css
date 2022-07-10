@@ -1,38 +1,21 @@
-*{
-	font-family: Arial, Helvetica, sans-serif;
-	background-color: #e8eaed;
+main{
+	display: flex !important;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
-header .menu .revista .titulo-revista{
-	background-color: #aad4d8;
+main .equipo{
+	border: 2px dotted #008000;
+	border-radius: 1rem;
 	padding: 0.5rem;
+	margin: 1rem 0 1rem 0;
 }
-header .menu .buttons a:visited{
-	color: black;
-	text-decoration: none;
-}
-header .menu .buttons a:link{
-	color: black;
-	text-decoration: none;
-}
-header .menu .buttons a{
-	color: black;
-	text-decoration: none;
-}
-header .menu{
-	text-align: center;
-	background-color: #aad4d8;
-	padding: 0.5rem;
-}
-header .menu .buttons{
-	background-color: #aad4d8;
+main .equipo h3{
+	margin-bottom: 0.5rem;
+	display: block;
 	text-align: center;
 }
-header .menu .btn{
-	padding: 0.5rem;
-}
-main .titulo{
-	margin: 1rem;
-}
-main .seccion{
-	margin: 2rem;
+main .equipo p{
+	text-align: center;
+	display: block;
+	margin-bottom: 0.3rem;
 }
