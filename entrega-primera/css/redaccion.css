@@ -4,18 +4,31 @@ main{
 	justify-content: space-evenly;
 }
 main .equipo{
-	border: 2px dotted #008000;
 	border-radius: 1rem;
 	padding: 0.5rem;
-	margin: 1rem 0 1rem 0;
+	margin: 1rem 1rem 1rem 1rem;
+	min-width: 18.75rem;
 }
 main .equipo h3{
-	margin-bottom: 0.5rem;
+	margin: 0.5rem;
 	display: block;
 	text-align: center;
+	text-decoration: underline solid black;
 }
 main .equipo p{
 	text-align: center;
 	display: block;
-	margin-bottom: 0.3rem;
+	margin: 0.5rem;
+}
+.actualidad-border{
+	border: green 2px dotted;
+}
+.moda-border{
+	border: red 2px dotted;
+}
+.noticias-border{
+	border: blue 2px dotted;
+}
+.deportes-border{
+	border: orange 2px dotted;
 }
