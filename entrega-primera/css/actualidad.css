@@ -5,18 +5,20 @@ header{
 	margin-bottom: 0.5rem;
 }
 header .portada{
-	padding: 1rem 1.5rem 0.5rem 1.5rem;
+	padding: 1rem 1rem 0.5rem 1rem;
 }
 header .portada img{
 	border-radius: 1rem;
 	width: 100%;
 }
 header .main-tittle{
-	margin: 0.5rem 1rem 0.5rem 1.5rem;
-	text-align: center;
+	margin-left: 1rem;
+	margin-bottom: 0rem;
+	color: #333;
 }
 main .texto .subtitulo{
-	margin: 0.5rem 0.5rem 1rem 1.5rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
 	margin-top: 0.5rem;
 	margin-bottom: 1rem;
 	color: #333;
@@ -26,8 +28,8 @@ main .texto .main-text{
 	align-items: center;
 }
 main .texto .main-text p{
-	margin-left: 1.5rem;
-	margin-right: 1.5rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
 	margin-top: 1rem;
 	margin-bottom: 1.5rem;
 	text-align: justify;
@@ -45,15 +47,15 @@ main .texto .main-text .a-c{
     margin-right: 2rem;
 }
 main .texto .main-text .video{
-	padding-right: 2rem;
-	padding-left: 2rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
 }
 main .texto .main-text .video video{
 	width: 100%;
 	border-radius: 0.5rem;
 }
 main .texto .main-text .imagen{
-	padding: 0 2rem 0 2rem;
+	padding: 0 1rem 0 1rem;
 }
 main .texto .main-text .imagen img{
 	border-radius: 1rem;
