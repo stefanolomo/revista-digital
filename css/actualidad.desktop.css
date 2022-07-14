@@ -61,6 +61,10 @@ main .texto .main-text .imagen img{
 	border-radius: 1rem;
 	width: 100%;
 }
+main .texto .main-text .sec{
+	font-size: 0.8rem;
+	color: grey;
+}
 footer{
 	padding: 1.5rem;
 	background-color: #aad4d8;
