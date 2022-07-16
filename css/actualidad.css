@@ -18,8 +18,8 @@ header .main-tittle{
 	color: #333;
 }
 main .texto .subtitulo{
-	margin-left: 1rem;
-	margin-right: 1rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
 	margin-top: 0.5rem;
 	margin-bottom: 1rem;
 	color: #333;
@@ -28,9 +28,12 @@ main .texto .main-text{
 	display: flexbox;
 	align-items: center;
 }
+main .texto .main-text ul li{
+	margin: 0.5rem 2.5rem 0.5rem 3.5rem;
+}
 main .texto .main-text p{
-	margin-right: 1rem;
-	margin-left: 1rem;
+	margin-right: 2rem;
+	margin-left: 2rem;
 	margin-top: 1rem;
 	margin-bottom: 1.5rem;
 	text-align: justify;
@@ -48,15 +51,15 @@ main .texto .main-text .a-c{
     margin-right: 2rem;
 }
 main .texto .main-text .video{
-	padding-right: 1rem;
-	padding-left: 1rem;
+	padding-right: 2rem;
+	padding-left: 2rem;
 }
 main .texto .main-text .video video{
 	width: 100%;
 	border-radius: 0.5rem;
 }
 main .texto .main-text .imagen{
-	padding: 0 1rem 0 1rem;
+	padding: 0 2rem 0 2rem;
 }
 main .texto .main-text .imagen img{
 	border-radius: 1rem;
