@@ -68,19 +68,3 @@ header .menu .btn{
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: #e8eaed;
 }
-.actualidad-border{
-	border: green 2px dotted;
-}
-.moda-border{
-	border: red 2px dotted;
-}
-.noticias-border{
-	border: blue 2px dotted;
-}
-.deportes-border{
-	border: orange 2px dotted;
-}
-main .publicaciones .publicacion p{
-	text-align: left;
-	background-color: #f5f5f5;
-}

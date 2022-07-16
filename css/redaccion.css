@@ -24,11 +24,14 @@ main .equipo p{
 	border: green 2px dotted;
 }
 .moda-border{
-	border: red 2px dotted;
+	border: rgb(42, 106, 128) 2px dotted;
 }
-.noticias-border{
+.cocina-border{
 	border: blue 2px dotted;
 }
 .deportes-border{
+	border: red 2px dotted;
+}
+.entretenimiento-border{
 	border: orange 2px dotted;
 }
