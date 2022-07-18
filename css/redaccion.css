@@ -1,4 +1,4 @@
-@media (min-width: 680px) {
+@media (min-width: 1000px) {
 	footer .contacto{
 		position: fixed;
 		bottom: 0;
@@ -7,24 +7,25 @@
 		padding: 1.5rem;
 		text-align: center;
 	}
-	main{
-		display: flex !important;
-		flex-wrap: wrap;
-		justify-content: space-evenly;
-		margin-bottom: 5rem;
-	}
 }
-@media (max-width: 680px) {
+@media (max-width: 1000px) {
 	footer .contacto{
 		background-color: #aad4d8;
 		padding: 1.5rem;
 		text-align: center;
 	}
-	main{
-		display: flex !important;
-		flex-wrap: wrap;
-		justify-content: space-evenly;
-	}
+}
+footer a{
+	color: black;
+	border: 2px black dotted;
+	padding: 0.5rem;
+	border-radius: 1rem;
+	background-color: lightgreen;
+}
+main{
+	display: flex !important;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 main .equipo{
 	border-radius: 1rem;
