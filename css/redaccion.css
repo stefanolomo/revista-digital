@@ -1,5 +1,6 @@
 @media (min-width: 1000px) {
 	footer .contacto{
+		border-radius: 1rem 1rem 0 0;
 		position: fixed;
 		bottom: 0;
 		width: 100%;
@@ -10,6 +11,7 @@
 }
 @media (max-width: 1000px) {
 	footer .contacto{
+		border-radius: 1rem 1rem 0 0;
 		background-color: #aad4d8;
 		padding: 1.5rem;
 		text-align: center;
@@ -21,6 +23,7 @@ footer a{
 	padding: 0.5rem;
 	border-radius: 1rem;
 	background-color: lightgreen;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 main{
 	display: flex !important;
