@@ -37,6 +37,7 @@ main .texto .main-text p{
 	margin-top: 1rem;
 	margin-bottom: 1.5rem;
 	text-align: justify;
+text-justify:inter-word
 }
 main .texto .main-text h4{
 	margin-top: 1.3rem;
