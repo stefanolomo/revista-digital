@@ -12,16 +12,11 @@ header .portada img{
 	width: 100%;
 }
 header .main-tittle{
-	margin-right: 1rem;
-	margin-left: 1rem;
-	margin-bottom: 0rem;
+	margin: 0 1rem 0.5rem 1rem;
 	color: #333;
 }
 main .texto .subtitulo{
-	margin-left: 2rem;
-	margin-right: 2rem;
-	margin-top: 0.5rem;
-	margin-bottom: 1rem;
+	margin: 0.5rem 2rem 1rem 2rem;
 	color: #333;
 }
 main .texto .main-text{
@@ -32,28 +27,21 @@ main .texto .main-text ul li{
 	margin: 0.5rem 2.5rem 0.5rem 3.5rem;
 }
 main .texto .main-text p{
-	margin-right: 2rem;
-	margin-left: 2rem;
-	margin-top: 1rem;
-	margin-bottom: 1.5rem;
+	margin: 1rem 2rem 1.5rem 2rem;
 	text-align: justify;
-text-justify:inter-word
 }
 main .texto .main-text h4{
-	margin-top: 1.3rem;
-	margin-bottom: 1rem;
+	margin: 1.3rem 0 1rem 0;
 }
 main .texto .main-text .a-t{
 	margin-left: 2rem;
 }
 main .texto .main-text .a-c{
 	text-align: center;
-	margin-left: 2rem;
-    margin-right: 2rem;
+	margin: 0 2rem 0 2rem;
 }
 main .texto .main-text .video{
-	padding-right: 2rem;
-	padding-left: 2rem;
+	padding: 0 2rem 0 2rem;
 }
 main .texto .main-text .video video{
 	width: 100%;
