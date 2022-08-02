@@ -18,13 +18,19 @@ main .publicaciones .publicacion p{
 	text-align: left;
 	background-color: #f5f5f5;
 }
+main .publicaciones{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
 main .publicaciones .publicacion{
-	padding: 2.5rem 6rem 2.5rem 6rem;
-	margin: 2.5rem 1.5rem 2.5rem 1.5rem;
+	padding: 1.5rem;
+	margin: 1.5rem;
 	border-radius: 0.4rem;
 	border: 1.9px solid black;
 	box-shadow: 5px 5px 11px 1px rgba(0,0,0,0.51);
 	background-color: #f5f5f5;
+	max-width: 400px;
 }
 main .publicaciones .publicacion .titulo-post{
 	margin: 0.5rem 0 0.5rem 0;
