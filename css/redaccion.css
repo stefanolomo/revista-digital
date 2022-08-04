@@ -6,7 +6,7 @@ main{
 main .equipo{
 	border-radius: 1rem;
 	padding: 0.5rem;
-	margin: 1rem 1rem 1rem 1rem;
+	margin: 1rem;
 	min-width: 18.75rem;
 }
 main .equipo h3{
