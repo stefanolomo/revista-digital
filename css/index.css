@@ -2,16 +2,22 @@
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: #e8eaed;
 }
+.noticias-border{
+	border: rgb(162, 0, 255) 2px dotted;
+}
 .actualidad-border{
 	border: green 2px dotted;
 }
-.moda-border{
+.deportes-border{
 	border: red 2px dotted;
 }
-.noticias-border{
+.cocina-border{
 	border: blue 2px dotted;
 }
-.deportes-border{
+.moda-border{
+	border-color: rgb(0, 191, 255) 2px dotted;
+}
+.entretenimiento-border{
 	border: orange 2px dotted;
 }
 main .publicaciones .publicacion p{
