@@ -23,6 +23,9 @@ main .texto .main-text{
 	display: flexbox;
 	align-items: center;
 }
+main .texto .main-text ol li{
+	margin: 0.5rem 2.5rem 0.5rem calc(3.5rem + 17.8px);
+}
 main .texto .main-text ul li{
 	margin: 0.5rem 2.5rem 0.5rem 4.5rem;
 }
@@ -41,18 +44,28 @@ main .texto .main-text .a-c{
 	margin: 0 3rem 0 3rem;
 }
 main .texto .main-text .video{
-	padding: 0 4.5rem 0 4.5rem;
+	padding: 0.5rem 4.5rem 0.5rem 4.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 main .texto .main-text .video video{
 	width: 100%;
 	border-radius: 0.5rem;
+	max-width: 600px;
+	max-height: 700px;
 }
 main .texto .main-text .imagen{
-	padding: 0 4.5rem 0 4.5rem;
+	padding: 0.5rem 4.5rem 0.5rem 4.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 main .texto .main-text .imagen img{
 	border-radius: 1rem;
 	width: 100%;
+	max-width: 600px;
+	max-height: 700px;
 }
 main .texto .main-text .sec{
 	font-size: 0.8rem;

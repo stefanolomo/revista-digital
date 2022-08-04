@@ -23,6 +23,9 @@ main .texto .main-text{
 	display: flexbox;
 	align-items: center;
 }
+main .texto .main-text ol li{
+	margin: 0.5rem 2.5rem 0.5rem 3.5rem;
+}
 main .texto .main-text ul li{
 	margin: 0.5rem 2.5rem 0.5rem 3.5rem;
 }
