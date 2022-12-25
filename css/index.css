@@ -67,3 +67,11 @@ main article .date {
   color: var(--secondary-gray);
   font-size: calc(0.9em);
 }
+main article a {
+  text-decoration: none;
+  color: currentColor;
+}
+main article :visited {
+  text-decoration: none;
+  color: currentColor;
+}
