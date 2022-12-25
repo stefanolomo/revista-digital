@@ -4,14 +4,14 @@
 @import url(./mixins.less);
 header{
 	font-family: Arial, Helvetica, sans-serif;
-	.flexbox(column, center, center, var(--xl));
+	.flexbox(column, center, center, no-wrap, var(--xl));
 	background-color: var(--primary-header);
 	padding: var(--xxxl);
 	#Tittle{
 		font-family: "Rock Salt";
 	}
 	.buttons{
-		.flexbox(row, center, center, var(--l));
+		.flexbox(row, center, center, no-wrap, var(--l));
 		.btn{
 			outline-color: greenyellow;
 			outline-width: 2px;
@@ -22,6 +22,33 @@ header{
 			padding: 8px;
 			border-radius: var(--xxxl);
 			cursor: pointer;
+		}
+	}
+}
+html{
+	background-color: var(--primary-bg);
+}
+main{
+	.flexbox(row, center, space-evenly, wrap, var(--xxxxxl));
+	background-color: var(--primary-bg);
+	padding: var(--xxxl) var(--xxxl) 0 var(--xxxl);
+	article{
+		box-shadow: 5px 5px 11px 1px rgb(0 0 0 / 51%);
+		max-width: 370px;
+		border: 1.5px solid;
+		background-color: var(--secondary-bg);
+		border-radius: var(--xl);
+		padding: var(--xxxl);
+		font-family: Arial, Helvetica, sans-serif;
+		.article-img{
+			max-height: 200px;
+			width: 100%;
+			object-fit: cover;
+			border-radius: 0 var(--xxl) 0 var(--xxl);
+		}
+		.section, .date{
+			color: var(--secondary-gray);
+			font-size: calc(0.9em);
 		}
 	}
 }

@@ -1,6 +1,9 @@
 @import url(normalize.min.css);
 @import url(variables.css);
 @import url(fuentes.css);
+html {
+  background-color: var(--primary-bg);
+}
 header {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
@@ -34,36 +37,31 @@ header .buttons .btn {
   border-radius: var(--xxxl);
   cursor: pointer;
 }
-html {
-  background-color: var(--primary-bg);
-}
 main {
+  background-color: var(--primary-bg);
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
+  align-items: unset;
+  justify-content: center;
   flex-wrap: wrap;
-  gap: var(--xxxxxl);
-  background-color: var(--primary-bg);
-  padding: var(--xxxl) var(--xxxl) 0 var(--xxxl);
+  gap: var(--xxxl);
+  padding: var(--xxl) 0 var(--xxl) 0;
 }
-main article {
-  box-shadow: 5px 5px 11px 1px rgba(0, 0, 0, 0.51);
-  max-width: 370px;
-  border: 1.5px solid;
-  background-color: var(--secondary-bg);
-  border-radius: var(--xl);
+main .equipo {
+  min-width: 18.75rem;
   padding: var(--xxxl);
-  font-family: Arial, Helvetica, sans-serif;
+  border-radius: var(--xxl);
 }
-main article .article-img {
-  max-height: 200px;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 0 var(--xxl) 0 var(--xxl);
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: unset;
+  justify-content: center;
+  flex-wrap: unset;
+  gap: unset;
+  background-color: var(--primary-bg);
 }
-main article .section,
-main article .date {
-  color: var(--secondary-gray);
-  font-size: calc(0.9em);
+footer .github-logo {
+  width: 40px;
+  border-radius: 100%;
 }
