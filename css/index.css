@@ -68,6 +68,12 @@ main article .date {
   font-size: calc(0.9em);
 }
 main article a {
+  display: flex;
+  flex-direction: column;
+  align-items: unset;
+  justify-content: unset;
+  flex-wrap: unset;
+  gap: var(--l);
   text-decoration: none;
   color: currentColor;
 }
