@@ -2,29 +2,7 @@
 @import url(./variables.css);
 @import url(./fuentes.css);
 @import url(./mixins.less);
-header{
-	font-family: Arial, Helvetica, sans-serif;
-	.flexbox(column, center, center, no-wrap, var(--xl));
-	background-color: var(--primary-header);
-	padding: var(--xxxl);
-	#Tittle{
-		font-family: "Rock Salt";
-	}
-	.buttons{
-		.flexbox(row, center, center, no-wrap, var(--l));
-		.btn{
-			outline-color: greenyellow;
-			outline-width: 2px;
-			background-color: var(--primary-header);
-			border: none;
-			text-decoration: none;
-			color: black;
-			padding: 8px;
-			border-radius: var(--xxxl);
-			cursor: pointer;
-		}
-	}
-}
+@import url(./header.css);
 html{
 	background-color: var(--primary-bg);
 }

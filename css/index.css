@@ -1,39 +1,7 @@
 @import url(normalize.min.css);
 @import url(variables.css);
 @import url(fuentes.css);
-header {
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: no-wrap;
-  gap: var(--xl);
-  background-color: var(--primary-header);
-  padding: var(--xxxl);
-}
-header #Tittle {
-  font-family: "Rock Salt";
-}
-header .buttons {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: no-wrap;
-  gap: var(--l);
-}
-header .buttons .btn {
-  outline-color: greenyellow;
-  outline-width: 2px;
-  background-color: var(--primary-header);
-  border: none;
-  text-decoration: none;
-  color: black;
-  padding: 8px;
-  border-radius: var(--xxxl);
-  cursor: pointer;
-}
+@import url(header.css);
 html {
   background-color: var(--primary-bg);
 }
