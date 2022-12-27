@@ -1,58 +1,51 @@
-*{
-	font-family: Arial, Helvetica, sans-serif;
-	background-color: #e8eaed;
+@import url(normalize.min.css);
+@import url(variables.css);
+@import url(fuentes.css);
+@import url(header.css);
+html {
+  background-color: var(--primary-bg);
 }
-.noticias-border{
-	border: rgb(162, 0, 255) 2px dotted;
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: var(--xxxxxl);
+  background-color: var(--primary-bg);
+  padding: var(--xxxl) var(--xxxl) 0 var(--xxxl);
 }
-.actualidad-border{
-	border: green 2px dotted;
+main article {
+  box-shadow: 5px 5px 11px 1px rgba(0, 0, 0, 0.51);
+  max-width: 370px;
+  border: 1.5px solid;
+  background-color: var(--secondary-bg);
+  border-radius: var(--xl);
+  padding: var(--xxxl);
+  font-family: Arial, Helvetica, sans-serif;
 }
-.deportes-border{
-	border: red 2px dotted;
+main article .article-img {
+  max-height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0 var(--xxl) 0 var(--xxl);
 }
-.cocina-border{
-	border: blue 2px dotted;
+main article .section,
+main article .date {
+  color: var(--secondary-gray);
+  font-size: calc(0.9em);
 }
-.moda-border{
-	border-color: rgb(0, 191, 255) 2px dotted;
+main article a {
+  display: flex;
+  flex-direction: column;
+  align-items: unset;
+  justify-content: unset;
+  flex-wrap: unset;
+  gap: var(--l);
+  text-decoration: none;
+  color: currentColor;
 }
-.entretenimiento-border{
-	border: orange 2px dotted;
-}
-main .publicaciones .publicacion p{
-	text-align: left;
-	background-color: #f5f5f5;
-}
-main .publicaciones .publicacion{
-	border-radius: 0.4rem;
-	border: 1.9px solid black;
-	padding: 1rem 0.5rem 1rem 0.5rem;
-	margin: 1.5rem 1rem 1.5rem 1rem;
-	box-shadow: 5px 5px 11px 1px rgba(0,0,0,0.51);
-	background-color: #f5f5f5;
-}
-main .publicaciones .publicacion .titulo-post{
-	margin-bottom: 0.5rem;
-	margin-top: 0.5rem;
-	background-color: #f5f5f5;
-}
-main .publicaciones .publicacion .pre-portada{
-	max-height: 200px;
-	width: 100%;
-	border-bottom-right-radius: 1rem;
-	border-top-left-radius: 1rem;
-}
-main .publicaciones .publicacion .sec{
-	font-size: 0.8rem;
-	color: grey;
-}
-main .publicaciones .publicacion .container-sec{
-	display:block;
-	background-color: #f5f5f5;
-}
-a{
-	color: black;
-	text-decoration: underline;
-	cursor: pointer;
+main article :visited {
+  text-decoration: none;
+  color: currentColor;
 }

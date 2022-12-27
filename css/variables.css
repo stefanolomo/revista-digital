@@ -1,0 +1,32 @@
+:root{
+	/*? Sizes */
+	--l: 0.2rem;
+	--xl: 0.4rem;
+	--xxl: 0.8rem;
+	--xxxl: 1.2rem;
+	--xxxxl: 2.2rem;
+	--xxxxxl: 4.2rem;
+	/*? Colors */
+	--primary-bg: #e8eaed;
+	--secondary-bg: #f5f5f5;
+	--primary-header: #aad4d8;
+	--secondary-gray: rgb(133, 133, 133);
+}
+.noticias-border{
+	border: 2px dotted rgb(255, 251, 0);
+}
+.actualidad-border{
+	border: 2px dotted violet;
+}
+.deportes-border{
+	border: 2px dotted blue;
+}
+.moda-border{
+	border: 2px dotted orange;
+}
+.cocina-border{
+	border: 2px dotted green;
+}
+.entretenimiento-border{
+	border: 2px dotted red;
+}

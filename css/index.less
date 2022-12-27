@@ -1,0 +1,40 @@
+@import url(./normalize.min.css);
+@import url(./variables.css);
+@import url(./fuentes.css);
+@import url(./mixins.less);
+@import url(./header.css);
+html{
+	background-color: var(--primary-bg);
+}
+main{
+	.flexbox(row, center, space-evenly, wrap, var(--xxxxxl));
+	background-color: var(--primary-bg);
+	padding: var(--xxxl) var(--xxxl) 0 var(--xxxl);
+	article{
+		box-shadow: 5px 5px 11px 1px rgb(0 0 0 / 51%);
+		max-width: 370px;
+		border: 1.5px solid;
+		background-color: var(--secondary-bg);
+		border-radius: var(--xl);
+		padding: var(--xxxl);
+		font-family: Arial, Helvetica, sans-serif;
+		.article-img{
+			max-height: 200px;
+			width: 100%;
+			object-fit: cover;
+			border-radius: 0 var(--xxl) 0 var(--xxl);
+		}
+		.section, .date{
+			color: var(--secondary-gray);
+			font-size: calc(0.9em);
+		}
+		a{
+			.flexbox(column, unset, unset, unset, var(--l));
+			text-decoration: none;
+			color: currentColor;
+		}:visited{
+			text-decoration: none;
+			color: currentColor;
+		}
+	}
+}

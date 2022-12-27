@@ -1,9 +1,4 @@
-@import url(normalize.min.css);
 @import url(variables.css);
-@import url(fuentes.css);
-html {
-  background-color: var(--primary-bg);
-}
 header {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
@@ -36,32 +31,4 @@ header .buttons .btn {
   padding: 8px;
   border-radius: var(--xxxl);
   cursor: pointer;
-}
-main {
-  background-color: var(--primary-bg);
-  display: flex;
-  flex-direction: row;
-  align-items: unset;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: var(--xxxl);
-  padding: var(--xxl) 0 var(--xxl) 0;
-}
-main .equipo {
-  min-width: 18.75rem;
-  padding: var(--xxxl);
-  border-radius: var(--xxl);
-}
-footer {
-  display: flex;
-  flex-direction: row;
-  align-items: unset;
-  justify-content: center;
-  flex-wrap: unset;
-  gap: unset;
-  background-color: var(--primary-bg);
-}
-footer .github-logo {
-  width: 40px;
-  border-radius: 100%;
 }
