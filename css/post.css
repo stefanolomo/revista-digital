@@ -187,6 +187,10 @@
 .markdown-body section.footnotes.footnotes-end-of-document hr {
   width: 25%;
 }
+.markdown-body [data-align="center"] {
+  display: block;
+  margin: auto;
+}
 blockquote,
 dl,
 ol,

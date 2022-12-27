@@ -1,7 +1,7 @@
 @import url(normalize.min.css);
+@import url(header.css);
 @import url(variables.css);
 @import url(fuentes.css);
-@import url(header.css);
 html {
   background-color: var(--primary-bg);
 }
