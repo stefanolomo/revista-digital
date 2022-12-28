@@ -10,7 +10,7 @@ header {
   background-color: var(--primary-header);
   padding: var(--xxxl);
 }
-header #Tittle {
+header #title {
   font-family: "Rock Salt";
 }
 header .buttons {
