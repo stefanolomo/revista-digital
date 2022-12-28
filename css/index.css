@@ -49,7 +49,7 @@ main {
 }
 main article {
   box-shadow: 5px 5px 11px 1px rgba(0, 0, 0, 0.51);
-  max-width: 370px;
+  width: 370px;
   border: 1.5px solid;
   background-color: var(--secondary-bg);
   border-radius: var(--xl);
