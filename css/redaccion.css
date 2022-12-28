@@ -46,11 +46,15 @@ main {
   flex-wrap: wrap;
   gap: var(--xxxl);
   padding: var(--xxl) 0 var(--xxl) 0;
+  font-family: JetBrains Mono;
 }
 main .equipo {
   min-width: 18.75rem;
   padding: var(--xxxl);
   border-radius: var(--xxl);
+}
+main .equipo h3 {
+  margin-bottom: var(--xl);
 }
 footer {
   display: flex;
