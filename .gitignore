@@ -1,6 +1,10 @@
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudio,dotenv
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudio,dotenv
 
+markdown/
+
+img/
+
 ### dotenv ###
 .env
 
