@@ -3,8 +3,6 @@
 
 markdown/
 
-img/
-
 ### dotenv ###
 .env
 
