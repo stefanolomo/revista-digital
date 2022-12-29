@@ -4,6 +4,9 @@
 html {
   background-color: var(--primary-bg);
 }
+html .hidden {
+  display: none;
+}
 header {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
@@ -36,6 +39,40 @@ header .buttons .btn {
   padding: 8px;
   border-radius: var(--xxxl);
   cursor: pointer;
+}
+header .dropdown {
+  position: absolute;
+  background-color: var(--primary-bg);
+  border-radius: var(--xxl);
+  margin: 230px 0 0 0;
+  min-width: 10rem;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+header .dropdown .section {
+  text-align: center;
+  padding: 0.5rem;
+  text-decoration: none;
+  color: currentColor;
+  display: block;
+}
+header .dropdown .section:visited {
+  text-decoration: none;
+  color: currentColor;
+}
+header .dropdown .section:hover {
+  background-color: var(--primary-header);
+}
+header .fade-in {
+  animation: fade-in 200ms;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 main {
   background-color: var(--primary-bg);
